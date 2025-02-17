@@ -34,4 +34,30 @@ const myFunction = function(){
 
 console.log(typeof fruits)
 
+//++++++++++++++++++++++
+
+//stack(primitive),Heap (Non-primitive)
+
+let myYoutubename = "aditisalunkhedotcom"
+
+let anothername = myYoutubename
+
+anothername = "codewithme"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+  email:"user@google.com",
+  upi:"user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
 
